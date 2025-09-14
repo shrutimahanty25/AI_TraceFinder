@@ -30,29 +30,37 @@ ForgeryFeatureExtractor/
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone or Download
+###1️⃣ Clone or Download
 Download or clone the project into your system:
 ```bash
 git clone https://github.com/yourusername/ForgeryFeatureExtractor.git
 cd ForgeryFeatureExtractor
 ```
 
-### 2️⃣ Create Virtual Environment
+###2️⃣ Create Virtual Environment
 # Windows (Command Prompt)
+```bash
 python -m venv venv
 venv\Scripts\activate.bat
+```
 
 # Linux / macOS
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 
 ###3️⃣ Install Requirements
+```bash
 pip install -r requirements.txt
+```
 
 ###4️⃣ Run the App
+```bash
 streamlit run app.py
+```
 
-## 🖼️ Usage Instructions
+###🖼️ Usage Instructions
 
 Launch the app (streamlit run app.py).
 Enter the dataset root path (the folder where your dataset is stored).
