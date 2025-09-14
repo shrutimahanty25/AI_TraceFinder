@@ -35,6 +35,7 @@ Download or clone the project into your system:
 ```bash
 git clone https://github.com/yourusername/ForgeryFeatureExtractor.git
 cd ForgeryFeatureExtractor
+```
 
 ### 2️⃣ Create Virtual Environment
 # Windows (Command Prompt)
